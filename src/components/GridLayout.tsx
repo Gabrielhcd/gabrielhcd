@@ -2,7 +2,6 @@ import Education from "./Education"
 import SkillStack from "./SkillStack"
 import Summary from "./Summary"
 import WorkHistory from "./WorkHistory"
-import Menu from "./Menu"
 
 function GridLayout() {
     return (

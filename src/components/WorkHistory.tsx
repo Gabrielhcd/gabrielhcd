@@ -1,11 +1,6 @@
 import style from '../componentsCss/WorkHistory.module.css'
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useState } from 'react';
 import { CardBody, Carousel } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
-
-gsap.registerPlugin(ScrollTrigger);
 
 interface WorkPlace {
     client? :string,
