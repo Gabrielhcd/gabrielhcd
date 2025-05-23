@@ -2,132 +2,132 @@
     "skills":[
         {
             "name":"Java",
-            "level":"",
+            "level":"4+ years",
             "icon":"javaImgN.png"
         },
         {
             "name":"C",
-            "level":"",
+            "level":"1 year",
             "icon":"cImg.png"
         },
         {
             "name":"C++",
-            "level":"",
+            "level":"1 year",
             "icon":"cppImgN.png"
         },
         {
             "name":"Python",
-            "level":"",
+            "level":"Entry",
             "icon":"pythonImg.png"
         },
         {
             "name":"SpringBoot",
-            "level":"",
+            "level":"4+ years",
             "icon":"springBootImgN.png"
         },
         {
             "name":"SQL",
-            "level":"",
+            "level":"3 years",
             "icon":"sqlImg.png"
         },
         {
             "name":"Bash",
-            "level":"",
+            "level":"Entry",
             "icon":"bashImg.png"
         },
         {
             "name":"Kotlin",
-            "level":"",
+            "level":"Entry",
             "icon":"kotlinImg.png"
         },
         {
             "name":"PL/SQL",
-            "level":"",
+            "level":"1 year",
             "icon":"plsqlImgN.png"
         },
         {
             "name":"Maven",
-            "level":"",
+            "level":"4 years",
             "icon":"mavenImgN.png"
         },
         {
             "name":"Postman",
-            "level":"",
+            "level":"4 years",
             "icon":"postmanImgN.png"
         },
         {
             "name":"Jenkins",
-            "level":"",
+            "level":"3 years",
             "icon":"jenkinsImgN.png"
         },
         {
             "name":"Elastic Search",
-            "level":"",
+            "level":"1 year1",
             "icon":"elasticImgN.png"
         },
         {
             "name":"New Relic",
-            "level":"",
+            "level":"2 years",
             "icon":"newRelicImg.png"
         },
         {
             "name":"PCF",
-            "level":"",
+            "level":"3 years",
             "icon":"pcfImg.png"
         },
         {
             "name":"OpenShift",
-            "level":"",
+            "level":"2 years",
             "icon":"openShiftImgN.png"
         },
         {
             "name":"Docker",
-            "level":"",
+            "level":"2 years",
             "icon":"dockerImg.png"
         },
         {
             "name":"Kubernetes",
-            "level":"",
+            "level":"2 years",
             "icon":"kubernetesImg.png"
         },
         {
             "name":"JUnit",
-            "level":"",
+            "level":"1 year",
             "icon":"junitImg.png"
         },
         {
             "name":"Mockito",
-            "level":"",
+            "level":"Entry",
             "icon":"mockitoImg.png"
         },
         {
             "name":"Linux",
-            "level":"",
+            "level":"4 years",
             "icon":"linuxImg.png"
         },
         {
             "name":"Kafka",
-            "level":"",
+            "level":"1+ year",
             "icon":"kafkaImgN.png"
         },
         {
             "name":"OracleDB",
-            "level":"",
+            "level":"1 years",
             "icon":"oracleImgN.png"
         },
         {
             "name":"MySQL",
-            "level":"",
+            "level":"2 years",
             "icon":"mysqlImgN.png"
         },
         {
             "name":"MongoDB",
-            "level":"",
+            "level":"2 years",
             "icon":"mongoImg.png"
         },
         {
             "name":"Qt",
-            "level":"",
+            "level":"1 year",
             "icon":"qtImg.png"
         },
         {
@@ -137,12 +137,12 @@
         },
         {
             "name":"Spanish",
-            "level":"",
+            "level":"C1",
             "icon":""
         },
         {
             "name":"SCRUM",
-            "level":"",
+            "level":"4+ years",
             "icon":""
         }
     ]

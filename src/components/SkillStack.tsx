@@ -23,7 +23,8 @@ function SkillStack() {
                                         alt={item.name}/>
                                     </div>
                                     <div className={`card-back ${style.cardBackStyle}`}>
-                                        {item.name}
+                                        <h6>{item.name}</h6>
+                                        <h6>{`Lvl/Exp: ${item.level}`}</h6>
                                     </div>
                                 </div>
                             </div>

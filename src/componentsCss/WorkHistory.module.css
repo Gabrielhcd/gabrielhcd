@@ -4,6 +4,7 @@
 
 .carouselStyle {
     height: 320px;
+    background-color: var(--main-bg-color)
 }
 
 .clientCardImageStyle {

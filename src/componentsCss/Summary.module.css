@@ -1,11 +1,18 @@
+:root {
+    --main-bg-color:  rgba(134, 181, 224, 0.966);
+    --main-txt-color: rgb(8, 6, 6);
+    --main-bg-color-sep: rgb(164, 224, 115);
+}
+
 .containerStyle {
-    background-color: rgb(195, 196, 186);
+    background-color: var(--main-bg-color)
 }
 
 .cardStyle {
     width: auto;
     text-align: center;
-    background-color: rgb(195, 196, 186);
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
     border: transparent;
     padding: 7%;
     margin-left: 15%;
@@ -14,7 +21,8 @@
 
 .cardTxtStyle {
     padding-top: 2%;
-    background-color: rgb(195, 196, 186);
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
     border: transparent;
     margin-left: 15%;
     margin-right: 15%;
