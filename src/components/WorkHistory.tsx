@@ -1,31 +1,25 @@
 import style from '../componentsCss/WorkHistory.module.css'
 import { CardBody, Carousel } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
+import workHistoryJson from '../data/WorkHistory.json';
 
 interface WorkPlace {
-    client? :string,
-    description? : string
+    title: string,
+    company:string,
+    companyLogo: string,
+    client:string,
+    clientLogo: string,
+    fromYear: string,
+    toYear:string,
+    responsabilities:string
 }
 
-const placeA = {
-    client: "A",
-    description: "A description"
-}
-const placeB = {
-    client: "B",
-    description: "B description"
-}
-const placeC = {
-    client: "C",
-    description: "C description"
-}
-
-const array: WorkPlace[] = [placeA, placeB, placeC];
+const array: WorkPlace[] = workHistoryJson.Jobs;
 
 
 function WorkHistory() {
     return(
-        <Carousel>
+        <Carousel className={`${style.carouselStyle}`} pause="hover">
             {array.map(item=> 
                 <Carousel.Item 
                     interval={2000}
@@ -34,7 +28,9 @@ function WorkHistory() {
                         <Card className={`${style.cardStyle}`}>
                             <CardBody>
                                 <Card.Title>{item.client}</Card.Title>
-                                <Card.Text>{item.description}</Card.Text>
+                                <Card.Subtitle>{item.company}</Card.Subtitle>
+                                <p>{item.fromYear} - {item.toYear}</p>
+                                <Card.Text>{item.responsabilities}</Card.Text>
                             </CardBody>
                         </Card>
                 </Carousel.Item>)}

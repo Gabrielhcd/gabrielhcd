@@ -1,13 +1,14 @@
 import style from "../componentsCss/Summary.module.css"
+import summaryJson from "../data/Summary.json"
 
 function Summary() {
     return(
         <div className={`container ${style.containerStyle}`}>
             <div className={`card ${style.cardStyle}`}>
                 <div className={`card-body ${style.cardBodyStyle}`}>
-                    <h1 className="card-title">MyName</h1>
-                    <h2 className="card-subtitle">Software Engineer</h2>
-                    <h4 className={`card ${style.cardTxtStyle}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus, provident non quasi facilis itaque doloribus soluta eos quo? Delectus facere deleniti nesciunt eum eos blanditiis quibusdam, nulla ipsa aliquid!</h4>
+                    <h1 className="card-title">{summaryJson.name}</h1>
+                    <h2 className="card-subtitle">{summaryJson.title}</h2>
+                    <h4 className={`card ${style.cardTxtStyle}`}>{summaryJson.summary}</h4>
                 </div>    
             </div>
         </div>

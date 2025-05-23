@@ -4,8 +4,8 @@ function Education() {
     return(
         <div className={`card ${style.cardEducation}`}>
             <h2>Software Engineer</h2>
-            <h3>Universidad</h3>
-            <h4>2000-2000</h4>
+            <img className={`${style.udcImgStyle}`}src="gabrielhcd/images/udcLogo.png" alt="Universidad de Colima" />
+            <h4>2017-2021</h4>
         </div>
     )
 }

@@ -24,7 +24,7 @@ function GridLayout() {
                 <WorkHistory/>
             </div>
             <div className="row">
-                Education
+                Education:
             </div>
             <div className="row">
                 <Education/>

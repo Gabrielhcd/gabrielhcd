@@ -1,0 +1,44 @@
+{
+    "Jobs":[
+        {
+            "title":"Java Developer",
+            "company":"Motivus",
+            "companyLogo":"motivusLogo.png",
+            "client":"Cigna",
+            "clientLogo":"cignaLogo.png",
+            "fromYear": "Dec/2022",
+            "toYear":"April/2025",
+            "responsabilities":"Enhancement developer for Java/SpringBoot microservices. Service upgrades and migrations in technologies used along the software life cycle. PL/SQL functionality analysis for Java migration. Low environment functionality testing. Service monitoring with New Relic/Splunk"
+        },
+        {
+            "title":"Java Developer",
+            "company":"AgileThought",
+            "companyLogo":"AtLogo.png",
+            "client":"AutoZone",
+            "clientLogo":"azLogo.png",
+            "fromYear":"April/2021",
+            "toYear":"Nov/2022",
+            "responsabilities":"Trobleshooting and maintenance developer for REST microservices with Java/SpringBoot. DevOps support focused on deployment and releases. Provide support to PROD in real time incidents. Collaboration with multiple teams to stabilize and fix issues in multiple environments. Basic Python scripting for information handling and analysis. Usage of Excel and Monitoring software (Elastic, Dynatrace, PCF) for retail systems analysis"
+        },
+        {
+            "title":"C/C++ Developer",
+            "company":"AgileThought",
+            "companyLogo":"AtLogo.png",
+            "client":"AutoZone",
+            "clientLogo":"azLogo.png",
+            "fromYear":"Oct/2020",
+            "toYear":"April/2021",
+            "responsabilities":"Troubleshooting and maintenance of retail and inventory systems with C/C++ and Qt. Usage of Linux and Docker. Analysis of retail systems"
+        },
+        {
+            "title":"Java Developer",
+            "company":"AgileThought",
+            "companyLogo":"AtLogo.png",
+            "client":"",
+            "clientLogo":"",
+            "fromYear":"Feb/2020",
+            "toYear":"Aug/2020",
+            "responsabilities":"Development of REST API with Java and SpringBoot. MongoDB setup and usage. Unit testing with JUnit and Mockito. API vaidation"
+        }
+    ]
+}
